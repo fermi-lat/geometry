@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Sat Oct  6 07:18:51 PDT 2001
+geometry/src Ray.cxx
+
+Modified Files:
+	Ray.cxx 
+Log Message:
+fix warnings
+    *
+------------------------------------------------------------
 User: burnett  Fri Oct  5 20:39:59 PDT 2001
 geometry/src Surface.cxx
 
