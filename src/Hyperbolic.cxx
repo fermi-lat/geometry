@@ -1,4 +1,4 @@
-// $Id: Hyperbolic.cxx,v 1.1.1.1 1999/12/18 22:50:55 burnett Exp $
+// $Id: Hyperbolic.cxx,v 1.1.1.1 1999/12/20 22:28:06 burnett Exp $
 //
 
 // Define a hyperbolic surface of revolution
@@ -23,6 +23,20 @@ double
 Hyperbolic::distance( const Point&  ,const Vector& , int) const
 {
   FATAL("not implemented");return 0;
+}
+
+Vector
+Hyperbolic::normal( const Point& ) const
+{
+  FATAL("not implemented");
+  return Vector();
+}
+
+void
+Hyperbolic::printOn( std::ostream& ) const
+{
+  FATAL("not implemented");
+  return;
 }
 
 
