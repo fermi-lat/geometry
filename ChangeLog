@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: burnett  Sat Nov 24 14:13:07 PST 2001
+geometry/geometry
+
+Modified Files:
+	Shape.h Volume.h 
+Log Message:
+setup a quantitative inside function, to allow for fuzzyness.
+
+    *
+------------------------------------------------------------
 User: burnett  Tue Oct  9 10:35:58 PDT 2001
 geometry/geometry Shape.h
 
