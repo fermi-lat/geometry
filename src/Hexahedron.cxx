@@ -1,9 +1,6 @@
-// $Id: Hexahedron.cxx,v 1.2 1999/12/25 18:08:01 pfkeb Exp $
+// $Id: Hexahedron.cxx,v 1.3 2000/12/14 23:18:11 burnett Exp $
 //
 
-#ifdef HAVE_CONFIG_H
-#include "config.h"
-#endif
 
 #include "geometry/Hexahedron.h"
 
@@ -41,8 +38,6 @@ Hexahedron::vertex(int n)const
 
 	D = ax*by*cz-ax*bz*cy-bx*ay*cz+bx*az*cy+cx*ay*bz-cx*az*by;
 
-   if( abs(D)<1e-10 )	  // probably bad code if this happens
-      return Point(0,0,0);
    Vector v( (Mxx*l + Mxy*w + Mxz*h)/D,
              (Myx*l + Myy*w + Myz*h)/D,
              (Mzx*l + Mzy*w + Mzz*h)/D);
