@@ -1,4 +1,4 @@
-// $Id: Vector.h,v 1.1.1.1 1999/12/18 22:50:54 burnett Exp $
+// $Header: Vector.h,v 1.1.1.1 1999/12/20 22:28:06 burnett Exp $
 //
 // Vector.h
 //
@@ -7,8 +7,8 @@
 
 #include "CLHEP/Vector/ThreeVector.h"
 #include "geometry/GeomObject.h"
-class Point;
 
+/// Subclass of Hep3Vector that has transformations from GeomObject
 class Vector : public Hep3Vector , public GeomObject
 {
 public:
@@ -45,7 +45,6 @@ public:
   double square() const { return mag2();}
 
 private:
-//	Vector(const Point&){} // make point conversion illegal
 };
 
 inline Vector

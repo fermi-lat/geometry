@@ -1,10 +1,6 @@
-//     $Id: CoordSystem.h,v 1.1.1.1 1999/12/20 22:28:05 burnett Exp $
+//     $Id: CoordSystem.h,v 1.2 1999/12/27 23:22:04 pfkeb Exp $
 // Project: Atlas Geometry
 //  Author: Toby Burnett
-//  
-// This is a coordinate transform that can be transformed: it
-// keeps track of the transformations to be able to apply the
-// total transformation in either direction.
 
 #ifndef CoordSystem_H
 #define CoordSystem_H
@@ -12,6 +8,11 @@
 #include "geometry/GeomObject.h"
 #include "geometry/CoordTransform.h"
 
+/**  
+ This is a coordinate transform that can be transformed: it
+ keeps track of the transformations to be able to apply the
+ total transformation in either direction.
+*/
 class CoordSystem : public GeomObject
 {
 
@@ -19,14 +20,14 @@ class CoordSystem : public GeomObject
   CoordSystem();
 
  
+  /// return reference our transform that inverts all the transforms
   const CoordTransform& globalToLocal()const;
- // return reference our transform that inverts all the transforms
 
+  /// creates (on stack) inverse of the saved globalToLocal xform
   const CoordTransform localToGlobal()const;
-  // creates (on stack) inverse of the saved globalToLocal xform
  
+  ///used during construction to establish where we are
   GeomObject& transform(const CoordTransform& T);
-  //used during construction to establish where we are
 
  private:
   CoordTransform _globalToLocal;

@@ -1,4 +1,4 @@
-// $Id: GeomObject.cxx,v 1.1.1.1 1999/12/18 22:50:55 burnett Exp $
+// $Id: GeomObject.cxx,v 1.1.1.1 1999/12/20 22:28:06 burnett Exp $
 //
 //
 
@@ -52,23 +52,6 @@ GeomObject::rotate(double angle, const Vector & axis)
 }
 void GeomObject::printOn(std::ostream& )const{};
 
-#if 0
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-//	    Printing facility for any subclass
-class GeomObject::Print : public Command {
-    friend class GeomObject;
-    Print(GeomObject* me, std::ostream* out):m_self(me), m_out(out){}
-    void execute(){m_self->printOn(*m_out);}
-    GeomObject* m_self;
-    std::ostream* m_out;
-};
-
-Command * GeomObject::printCommand(std::ostream* out)
-{
-    return new Print(this,out);
-}
-
-#endif
 
 
 

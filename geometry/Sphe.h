@@ -1,27 +1,28 @@
-// $Header: /cvs/cmt/geometry/geometry/Sphe.h,v 1.1.1.1 1999/12/18 22:50:54 burnett Exp $
+// $Header: /cvs/cmt/geometry/geometry/Sphe.h,v 1.1.1.1 1999/12/20 22:28:06 burnett Exp $
 //  Author: T. Burnett
 //
 
-//	C++ header file for the  Sphe class which is a segment of a
-//	sphere defined by inner and outer radii and azimuthal and polar
-//	angle limits.
-//	It is not clear if this Sphe is the same as the GEANT volume of the
-//	same name.
 
 #ifndef __SPHE_H
 #define __SPHE_H
 
 #include "geometry/Volume.h"
 
+/**
+	Segment of a
+	sphere defined by inner and outer radii and azimuthal and polar
+	angle limits.
+	It is not clear if this Sphe is the same as the GEANT volume of the
+	same name.
+*/
 class Sphe: public Volume
 {
     
 public:
+    /// constructor: inner, outer radii; limits in theta, phi (defaults: full solid angle)
     Sphe( double ri,  double ro,
         double th1=0, double th2=M_PI,
         double ph1=0, double ph2=2*M_PI );
-    // constructor: inner, outer radii;
-    // limits in theta, phi (defaults: full solid angle)
     
     
     double innerRadius() const{return inner_radius;}

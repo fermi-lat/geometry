@@ -1,4 +1,4 @@
-// $Header: /cvs/cmt/geometry/geometry/Cons.h,v 1.1.1.1 1999/12/18 22:50:53 burnett Exp $
+// $Header: /cvs/cmt/geometry/geometry/Cons.h,v 1.1.1.1 1999/12/20 22:28:05 burnett Exp $
 //  Author: T. Burnett
 
 #ifndef __CONS_H
@@ -6,7 +6,7 @@
 
 #include "geometry/Cone.h"
 
-
+/// A partial Cone
 class Cons: public Cone
 {
     
