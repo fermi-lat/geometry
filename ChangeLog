@@ -1,4 +1,12 @@
 ------------------------------------------------------------
+TAG activity
+User: burnett  Sun Jun 10 12:46:11 2001
+Tag name: requirements
+Tag operation: mov
+Repository: /nfs/slac/g/glast/ground/cvs/geometry/mgr
+File(s) and revision(s): .cvsignore
+    *
+------------------------------------------------------------
 User: burnett  Sun Jun 10 12:45:18 PDT 2001
 geometry/mgr requirements
 
