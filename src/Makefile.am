@@ -1,6 +1,6 @@
 ## Process this file with automake to produce Makefile.in
 #
-# $Id: Makefile.am,v 1.2 1999/12/25 02:25:35 pfkeb Exp $
+# $Id: Makefile.am,v 1.1 1999/12/25 18:09:44 pfkeb Exp $
 #
 # Author: Paul_Kunz@slac.stanford.edu
 #
@@ -23,4 +23,5 @@ libgeometry_la_SOURCES = \
 libgeometry_la_LDFLAGS = -version-info 1
 
 INCLUDES = -I$(top_srcdir) \
+	-I$(top_srcdir)/../CLHEP \
 	-I$(glast_prefix)/include
