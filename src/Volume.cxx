@@ -1,4 +1,4 @@
-// $Id: Volume.cxx,v 1.1.1.1 1999/12/18 22:50:55 burnett Exp $
+// $Id: Volume.cxx,v 1.1.1.1 1999/12/20 22:28:07 burnett Exp $
 //
 //
 
@@ -231,7 +231,7 @@ Volume::distanceToLeave( const Ray& r,  double maxStep ) const
 
    if (solutionVolume == Surface_NO_SOLUTION) {
 	// cases (b) and (c), but how am i supposed to find out, which one ?
-#ifdef _DEBUG
+#if 0 // do not need anymore? def _DEBUG
        std::cerr << "Volume::distanceToLeave, can't leave!\n";
        std::cerr << "\tVolume=" << *this << '\n';
        std::cerr << "\tRay= " << r << '\n';
