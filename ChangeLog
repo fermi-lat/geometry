@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: atwood  Tue Sep  4 12:27:40 PDT 2001
+geometry/geometry Volume.h
+
+Modified Files:
+	Volume.h 
+Log Message:
+
+Part of the fix to the gismo propagation methods... needed to make the surface tolerance parameter
+(Surface_EPSILON) publically available.... made it a public static member of Volume. 
+    *
+------------------------------------------------------------
 User: burnett  Mon Jul 16 16:57:51 PDT 2001
 geometry/mgr requirements
 
