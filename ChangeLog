@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: atwood  Fri Sep 21 11:37:19 PDT 2001
+geometry/src Ray.cxx
+
+Modified Files:
+	Ray.cxx 
+Log Message:
+
+Added a private int data member to Ray to allow the user to flag the ray for 
+use by clients... Ray has member functions to set and retrive the flag
+    *
+------------------------------------------------------------
+User: atwood  Fri Sep 21 11:37:19 PDT 2001
 geometry/geometry Ray.h
 
 Modified Files:
