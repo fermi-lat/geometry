@@ -1,5 +1,13 @@
 ------------------------------------------------------------
 TAG activity
+User: burnett  Sun Jun 10 15:00:31 2001
+Tag name: v2r1
+Tag operation: mov
+Repository: /nfs/slac/g/glast/ground/cvs/geometry/mgr
+File(s) and revision(s): requirements
+    *
+------------------------------------------------------------
+TAG activity
 User: burnett  Sun Jun 10 15:00:01 2001
 Tag name: requirements
 Tag operation: del
