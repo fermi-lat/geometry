@@ -1,4 +1,4 @@
-// $Id: Cone.cxx,v 1.2 1999/12/25 18:07:17 pfkeb Exp $
+// $Id: Cone.cxx,v 1.3 2000/05/05 04:38:08 burnett Exp $
 //
 
 
@@ -7,6 +7,7 @@
 #include "geometry/Conic.h"
 #include "geometry/Plane.h"
 #include <algorithm>
+#include <cmath>
 inline static double sqr(double x){return x*x;}
 
 static Vector zhat(0,0,1);
