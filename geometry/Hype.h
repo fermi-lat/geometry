@@ -1,4 +1,4 @@
-// $Header: /cvs/cmt/geometry/geometry/Hype.h,v 1.1.1.1 1999/12/20 22:28:05 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/geometry/geometry/Hype.h,v 1.2 2000/01/18 00:42:06 burnett Exp $
 //
 
 #ifndef __HYPE_H
@@ -33,7 +33,6 @@ public:
     double outerRadius() const { return outer_radius; }
     double stereoAngle() const { return stereo_angle; }
 
-    virtual void calcMaxDimension();
 
 
     virtual const char *nameOf() const { return "Hype"; }
