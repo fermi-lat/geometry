@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: burnett  Tue Jan  1 18:56:45 PST 2002
+geometry/mgr
+
+Modified Files:
+	requirements 
+Log Message:
+Replace all FATAL calls with throw; 
+have CoordTransform convert from CLHEP HepTransform3D
+
+    *
+------------------------------------------------------------
+User: burnett  Tue Jan  1 18:56:45 PST 2002
 geometry/geometry
 
 Modified Files:
