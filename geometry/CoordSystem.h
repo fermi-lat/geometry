@@ -1,4 +1,4 @@
-//     $Id: CoordSystem.h,v 1.1.1.1 1999/12/18 22:50:53 burnett Exp $
+//     $Id: CoordSystem.h,v 1.1.1.1 1999/12/20 22:28:05 burnett Exp $
 // Project: Atlas Geometry
 //  Author: Toby Burnett
 //  
@@ -8,10 +8,6 @@
 
 #ifndef CoordSystem_H
 #define CoordSystem_H
-
-#ifdef __GNUG__
-#pragma interface
-#endif
 
 #include "geometry/GeomObject.h"
 #include "geometry/CoordTransform.h"
