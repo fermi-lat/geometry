@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: golpa  Mon Apr  5 11:04:09 PDT 2004
+geometry/geometry
+
+Modified Files:
+	Hype.h 
+Log Message:
+Removed unused function calcMaxDimension()
+    *
+------------------------------------------------------------
 User: als  Thu Jan  9 18:29:40 PST 2003
 geometry/mgr
 
