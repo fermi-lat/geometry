@@ -1,6 +1,10 @@
-// $Id: Tube.cxx,v 1.1.1.1 1999/12/18 22:50:55 burnett Exp $
+// $Id: Tube.cxx,v 1.1.1.1 1999/12/20 22:28:07 burnett Exp $
 //
 
+
+#ifdef HAVE_CONFIG_H
+#include "config.h"
+#endif
 
 #include "geometry/Tube.h"
 
