@@ -1,4 +1,4 @@
-// $Id$
+// $Id: Hexahedron.cxx,v 1.2 1999/12/25 18:08:01 pfkeb Exp $
 //
 
 #ifdef HAVE_CONFIG_H
@@ -7,7 +7,7 @@
 
 #include "geometry/Hexahedron.h"
 
-#include "CLHEP/config/TemplateFunctions.h"
+inline static double sqr(double x){return x*x;}
 
 Hexahedron::Hexahedron()
 : Volume(6)

@@ -1,4 +1,4 @@
-//     $Id: Conic.cxx,v 1.1.1.1 1999/12/18 22:50:54 burnett Exp $
+//     $Id: Conic.cxx,v 1.1.1.1 1999/12/20 22:28:06 burnett Exp $
 //  Author: T. Burnett
 // Project: geometry
 //
@@ -6,7 +6,7 @@
 
 #include "geometry/Conic.h"
 
-#include "CLHEP/config/TemplateFunctions.h"
+inline static double sqr(double x){return x*x;}
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Conic::Conic( const Point& origin, const Vector& axis,

@@ -1,14 +1,13 @@
-// $Id: Vector.cxx,v 1.1.1.1 1999/12/18 22:50:55 burnett Exp $
+// $Id: Vector.cxx,v 1.1.1.1 1999/12/20 22:28:07 burnett Exp $
 //
 
 #include "geometry/Vector.h"
 
 #include "geometry/CoordTransform.h"
-#include "CLHEP/config/TemplateFunctions.h"
 
 Vector::Vector(double costh, double phi)
-: Hep3Vector(sqrt(1-sqr(costh))*cos(phi)
-		 ,sqrt(1-sqr(costh))*sin(phi)
+: Hep3Vector(sqrt(1-costh*costh)*cos(phi)
+	    ,sqrt(1-costh*costh)*sin(phi)
 	    ,costh)
 	    {}
 // convenient constructor of unit vector in given direction?

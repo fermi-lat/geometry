@@ -1,4 +1,4 @@
-// $Id: Tube.cxx,v 1.1.1.1 1999/12/20 22:28:07 burnett Exp $
+// $Id: Tube.cxx,v 1.2 1999/12/25 18:08:58 pfkeb Exp $
 //
 
 
@@ -11,7 +11,7 @@
 #include "geometry/Cylinder.h"
 #include "geometry/Plane.h"
 
-#include "CLHEP/config/TemplateFunctions.h"
+inline static double sqr(double x){return x*x;}
 
 static Vector zhat(0,0,1);
 

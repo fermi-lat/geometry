@@ -1,9 +1,9 @@
-// $Id: Sphere.cxx,v 1.1.1.1 1999/12/18 22:50:55 burnett Exp $
+// $Id: Sphere.cxx,v 1.1.1.1 1999/12/20 22:28:06 burnett Exp $
 //
 //
 #include "geometry/Sphere.h"
 
-#include "CLHEP/config/TemplateFunctions.h"
+inline static double sqr(double x){return x*x;}
 #include <cfloat>
 
 Sphere::Sphere( const Point& origin, double radius)
