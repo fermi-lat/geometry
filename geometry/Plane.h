@@ -1,4 +1,4 @@
-// $Header: Plane.h,v 1.1.1.1 1999/12/18 22:50:53 burnett Exp $
+// $Header: /cvs/cmt/geometry/geometry/Plane.h,v 1.1.1.1 1999/12/20 22:28:05 burnett Exp $
 //
 //
 //
@@ -9,11 +9,6 @@
 
 #ifndef __PLANE_H
 #define __PLANE_H
-
-//#ifdef __GNUG__
-//#pragma interface
-//#endif
-
 #include "geometry/Surface.h"
 
 class Plane: public Surface
@@ -25,7 +20,6 @@ class Plane: public Surface
    // origin to the plane. Note that inside is defined as the side with the  origin.
    // second form is equivalent, but allows plane to pass through origin
 
-   ~Plane(); // dummy destructor
 
    virtual double how_near( const Point& x ) const;
    virtual double distance( const Point& x, const Vector& v, int inout)const;
