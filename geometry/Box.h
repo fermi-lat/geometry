@@ -1,10 +1,10 @@
-//  $Header: /cvs/cmt/geometry/geometry/Box.h,v 1.1.1.1 1999/12/20 22:28:05 burnett Exp $
+//  $Header: /nfs/slac/g/glast/ground/cvs/geometry/geometry/Box.h,v 1.2 2000/01/18 00:42:04 burnett Exp $
 //   Author: Toby Burnett
 //  Project: geometry
 //
 
-#ifndef BOX_H
-#define BOX_H
+#ifndef GEOMETRY_BOX_H
+#define GEOMETRY_BOX_H
 
 #include "geometry/Hexahedron.h"
 
