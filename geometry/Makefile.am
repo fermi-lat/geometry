@@ -1,6 +1,6 @@
 ## Process this file with automake to produce Makefile.in
 #
-# $Id: Makefile.am,v 1.3 2000/01/02 02:05:31 pfkeb Exp $
+# $Id: Makefile.am,v 1.4 2000/01/23 03:36:28 pfkeb Exp $
 #
 # Author: Paul_Kunz@slac.stanford.edu
 #
@@ -11,35 +11,38 @@ AUTOMAKE_OPTIONS = foreign
 geometrydir = $(includedir)/geometry
 
 ## headers needed for share file system install
-geometry_HEADERS =				\
-	Box.h					\
-	Cone.h					\
-	Cons.h					\
-	Conic.h					\
-	CoordSystem.h				\
-	CoordTransform.h			\
-	Digitizer.h				\
-	GeomObject.h				\
-	Helix.h					\
-	Hexahedron.h				\
-	Hype.h					\
-	Intersection.h				\
-	Plane.h					\
-	Point.h					\
-	Ray.h					\
-	Shape.h					\
-	Sphe.h					\
-	Surface.h				\
-	Track.h					\
-	Tube.h					\
-	Tubs.h					\
-	Vector.h				\
-	Volume.h				\
+geometry_HEADERS =		\
+	Box.h			\
+	Cone.h			\
+	Cons.h			\
+	Conic.h			\
+	CoordSystem.h		\
+	CoordTransform.h	\
+	Digitizer.h		\
+	GeomObject.h		\
+	Helix.h			\
+	Hexahedron.h		\
+	Hype.h			\
+	Intersection.h		\
+	Plane.h			\
+	Point.h			\
+	Ray.h			\
+	Shape.h			\
+	Sphe.h			\
+	Surface.h		\
+	Track.h			\
+	Tube.h			\
+	Tubs.h			\
+	Vector.h		\
+	Volume.h		\
 	Wedge.h
 
 ## headers not needed for shared file system installation
-noinst_HEADERS =				\
-	Cylinder.h				\
-	Hyperbolic.h				\
-	Sphere.h				\
-	Trap.h Trd1.h Trd2.h Tubs.h
+noinst_HEADERS =	\
+	Cylinder.h	\
+	Hyperbolic.h	\
+	Sphere.h	\
+	Trap.h		\
+	Trd1.h		\
+	Trd2.h		\
+	Tubs.h
