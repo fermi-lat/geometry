@@ -1,5 +1,17 @@
 ------------------------------------------------------------
 User: burnett  Tue Jan  1 18:56:45 PST 2002
+geometry/src
+
+Modified Files:
+	Cone.cxx Hype.cxx Hyperbolic.cxx Plane.cxx Sphe.cxx Tube.cxx 
+	Volume.cxx Wedge.cxx 
+Log Message:
+Replace all FATAL calls with throw; 
+have CoordTransform convert from CLHEP HepTransform3D
+
+    *
+------------------------------------------------------------
+User: burnett  Tue Jan  1 18:56:45 PST 2002
 geometry/mgr
 
 Modified Files:
