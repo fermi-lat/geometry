@@ -1,4 +1,4 @@
-// $Header: /cvs/cmt/geometry/geometry/Ray.h,v 1.2 2000/01/18 00:42:07 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/geometry/geometry/Ray.h,v 1.3 2000/01/18 00:50:59 burnett Exp $
 #ifndef GEOMETRY_RAY_H
 #define GEOMETRY_RAY_H
 
@@ -34,6 +34,8 @@ public:
 
   double getArcLength() const { return arclength; }
   void setArcLength( double s ) { arclength = s; }
+  void setFlag( int k ) {flag = k;}
+  int  getFlag() const {return flag;} 
   void addArcLength( double ds ) { arclength += ds; }
   // access to internal position
 
@@ -49,6 +51,7 @@ public:
   Point pos;			// starting point
   Vector dir;   		// direction unit vector
   float arclength;	// length along the Ray to be drawn
+  int flag;                     // a flag to be used by clients
 
 };
 
