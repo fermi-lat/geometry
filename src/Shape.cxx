@@ -1,4 +1,4 @@
-// $Id: Shape.cxx,v 1.1.1.1 1999/12/18 22:50:55 burnett Exp $
+// $Id: Shape.cxx,v 1.1.1.1 1999/12/20 22:28:06 burnett Exp $
 //
 
 #include "geometry/Shape.h"
@@ -7,7 +7,7 @@
 // implementations of Shape member functions
 
 Shape::Shape()
-{}
+:GeomObject(){}
 
 
 Shape& Shape::copy()const
