@@ -1,4 +1,4 @@
-// $Id: GeomObject.cxx,v 1.1.1.1 1999/12/20 22:28:06 burnett Exp $
+// $Id: GeomObject.cxx,v 1.2 2000/01/18 00:42:11 burnett Exp $
 //
 //
 
@@ -9,7 +9,7 @@
 
 const char* GeomObject::nameOf()const
 {
-	const type_info& t1 = typeid(*this);
+	const std::type_info& t1 = typeid(*this);
 	return t1.name();
 }
 
