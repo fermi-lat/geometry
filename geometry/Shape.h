@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/geometry/geometry/Shape.h,v 1.2 2000/01/18 00:42:09 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/geometry/geometry/Shape.h,v 1.3 2001/10/06 03:37:05 burnett Exp $
 //
 
 #ifndef GEOMETRY_SHAPE_H
@@ -55,7 +55,11 @@ class Shape : public GeomObject
     // default constructor accessible to subclasses
 
  private:
-   Shape(const Shape& ):GeomObject(){};
+#ifdef WIN32
+   Shape(const Shape& ){};
+#else
+   Shape(const Shape& ):GeomObject(){}; //gcc wants initializer, msdev chokes
+#endif
     // copy constructor not allowed
 
   Point _center;
