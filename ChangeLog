@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: burnett  Sat Nov 24 14:13:07 PST 2001
+geometry/src
+
+Modified Files:
+	Volume.cxx 
+Log Message:
+setup a quantitative inside function, to allow for fuzzyness.
+
+    *
+------------------------------------------------------------
+User: burnett  Sat Nov 24 14:13:07 PST 2001
 geometry/geometry
 
 Modified Files:
