@@ -1,6 +1,6 @@
 ## Process this file with automake to produce Makefile.in
 #
-# $Id: Makefile.am,v 1.2 1999/12/27 23:24:57 pfkeb Exp $
+# $Id: Makefile.am,v 1.3 2000/01/02 02:05:31 pfkeb Exp $
 #
 # Author: Paul_Kunz@slac.stanford.edu
 #
@@ -41,6 +41,5 @@ geometry_HEADERS =				\
 noinst_HEADERS =				\
 	Cylinder.h				\
 	Hyperbolic.h				\
-	RootFinder.h				\
 	Sphere.h				\
 	Trap.h Trd1.h Trd2.h Tubs.h
