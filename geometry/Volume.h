@@ -1,13 +1,12 @@
-// $Id: Volume.h,v 1.1.1.1 1999/12/20 22:28:06 burnett Exp $
+// $Id: Volume.h,v 1.2 2000/01/18 00:42:11 burnett Exp $
 //
 //
 
-#ifndef __VOLUME_H
-#define __VOLUME_H
+#ifndef GEOMETRY_VOLUME_H
+#define GEOMETRY_VOLUME_H
 
 #include "geometry/Shape.h"
 #include "geometry/Surface.h"
-#include <string> //gcc bug: shield vector by string
 #include <vector>
 typedef std::vector<Surface*> SurfaceList;
 

@@ -1,6 +1,6 @@
-// $Header: Ray.h,v 1.1.1.1 1999/12/20 22:28:06 burnett Exp $
+// $Header: /cvs/cmt/geometry/geometry/Ray.h,v 1.2 2000/01/18 00:42:07 burnett Exp $
 #ifndef GEOMETRY_RAY_H
-#define __RAY_H
+#define GEOMETRY_RAY_H
 
 #include "geometry/Point.h"
 #include <cfloat> // needed on NT for FLT_MAX
