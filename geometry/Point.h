@@ -1,4 +1,4 @@
-// $Header: Point.h $
+// $Header: /nfs/slac/g/glast/ground/cvs/geometry/geometry/Point.h,v 1.2 2000/01/18 00:42:07 burnett Exp $
 //   Author: T. Burnett
 //  Project: geometry
 //
@@ -14,7 +14,7 @@
 class Point: public Hep3Vector , public GeomObject
 {
 public:
-    Point(const Point& p):Hep3Vector(p){}
+    Point(const Point& p):Hep3Vector(p),GeomObject(){}
     Point():Hep3Vector(0,0,0){}
     Point(double x, double y, double z):Hep3Vector(x,y,z){}
     // constructors: default is null
