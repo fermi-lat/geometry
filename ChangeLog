@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Wed Sep  8 11:55:44 PDT 2004
+geometry/src
+
+Modified Files:
+	Surface.cxx Volume.cxx 
+Log Message:
+remove strstream includes
+    *
+------------------------------------------------------------
+User: burnett  Wed Sep  8 11:55:44 PDT 2004
 geometry/mgr
 
 Modified Files:
