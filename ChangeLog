@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Fri Oct  5 20:39:59 PDT 2001
+geometry/src Surface.cxx
+
+Modified Files:
+	Surface.cxx 
+Log Message:
+fix one more stupid gcc warnings
+    *
+------------------------------------------------------------
 User: burnett  Fri Oct  5 20:37:06 PDT 2001
 geometry/src Shape.cxx
 
