@@ -1,4 +1,4 @@
-// $Id: Volume.cxx,v 1.2 2000/09/04 00:30:27 burnett Exp $
+// $Id: Volume.cxx,v 1.3 2001/09/04 19:27:40 atwood Exp $
 //
 //
 
@@ -352,3 +352,12 @@ Volume::inside( const Point& x ) const
     return 1;
 }
 
+double Volume::howNear( const Point& x) const
+{
+   double r=FLT_MAX;
+    for(unsigned i=0; i<surfaceCount(); i++) {
+	double d =surface(i).how_near( x );
+        if (d < r) r=d;
+    }
+    return r;
+}

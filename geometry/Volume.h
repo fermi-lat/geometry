@@ -1,4 +1,4 @@
-// $Id: Volume.h,v 1.3 2000/01/18 00:50:59 burnett Exp $
+// $Id: Volume.h,v 1.4 2001/09/04 19:27:39 atwood Exp $
 //
 //
 
@@ -32,6 +32,9 @@ class Volume : public  Shape , protected SurfaceList
 
    /// is the point inside the volume?
    virtual int inside ( const Point& x ) const;
+
+   /// or how close to the surface
+   virtual double howNear( const Point& x ) const;
 
    /// rotate, translate
    GeomObject& transform(const CoordTransform&);
