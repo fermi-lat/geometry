@@ -1,4 +1,4 @@
-// $Id: Tube.cxx,v 1.2 1999/12/25 18:08:58 pfkeb Exp $
+// $Id: Tube.cxx,v 1.3 2000/12/14 23:18:11 burnett Exp $
 //
 
 
@@ -32,7 +32,7 @@ void Tube::calculateSurfaces( double length, double innerRadius, double outerRad
 {
    if(    innerRadius<0 || innerRadius>outerRadius
        || outerRadius<0 || length <=0
-      )FATAL("Illegal parameters for Tube::calculateSurfaces");
+      )GeometryException("Illegal parameters for Tube::calculateSurfaces");
 
     // don't reorder these without looking below!
 	addSurface(new Cylinder(center(),  outerRadius));

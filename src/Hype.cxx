@@ -1,4 +1,4 @@
-// $Header: /cvs/cmt/geometry/src/Hype.cxx,v 1.1.1.1 1999/12/18 22:50:55 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/geometry/src/Hype.cxx,v 1.1.1.1 1999/12/20 22:28:06 burnett Exp $
 //
 
 #include "geometry/Hype.h"
@@ -19,7 +19,7 @@ Hype::Hype( double hl, double ri, double ro, double sa )
 {
 	if(    ( hl <= 0.0 ) || ( ri <= 0.0 ) || ( ro <= ri )
 	     ||( sa <= 0.0 ) || ( sa >=  M_PI/2 )
-	  ) FATAL("Illegal Hype parameters");
+	  ) GeometryException("Illegal Hype parameters");
 	Vector axis( 0.0, 0.0, 1.0 );
 
  	double zt = hl * tan( sa );

@@ -1,4 +1,4 @@
-// $Id: GeomObject.h,v 1.1.1.1 1999/12/20 22:28:05 burnett Exp $
+// $Id: GeomObject.h,v 1.2 2000/01/18 00:42:06 burnett Exp $
 //
 //
 
@@ -8,13 +8,11 @@
 
 #include <iostream>
 
-extern void WARNING(const char *);
-extern void FATAL(const char *);
-// handle error messages: should make it create exceptions?
+// handle error messages from fatal error conditions
+#define GeometryException(t) throw(t)
 
 class CoordTransform;
 class Vector;
-class Command;
 
 /// Pure base class for all Geometric objects. Establishes the ability to transform.
 class GeomObject 

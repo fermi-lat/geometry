@@ -1,4 +1,4 @@
-// $Header: /cvs/cmt/geometry/src/Plane.cxx,v 1.1.1.1 1999/12/20 22:28:06 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/geometry/src/Plane.cxx,v 1.2 1999/12/21 04:37:19 burnett Exp $
 //
 
 
@@ -11,7 +11,7 @@ Plane::Plane(const Point& o, const Vector& n)
 , m_d(n.magnitude())		 // magnitude here
 {
    if(m_d==0)
-   FATAL("Plane constructor called with null unit vector");
+   GeometryException("Plane constructor called with null unit vector");
 
 }
 Plane::Plane(const Point& o, const Vector& n, double dist)

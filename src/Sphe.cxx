@@ -1,4 +1,4 @@
-// $Header: /cvs/cmt/geometry/src/Sphe.cxx,v 1.1.1.1 1999/12/18 22:50:55 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/geometry/src/Sphe.cxx,v 1.1.1.1 1999/12/20 22:28:06 burnett Exp $
 //  Author: T. Burnett
 //
 #include "geometry/Sphe.h"
@@ -19,7 +19,7 @@ Sphe::Sphe( double ri, double ro,
 	  || ( th2 <= th1 ) || ( th2 > ( th1 + M_PI ) ) || ( ph1 < 0.0 )
 	  || ( ph1 >= 2*M_PI ) || ( ph2 <= ph1 ) || ( ph2 > ( ph1 + 2*M_PI ) ) )
 	{
-		FATAL("Dimensions of Sphe are invalid");
+		GeometryException("Dimensions of Sphe are invalid");
 	}
 	inner_radius  = ri;
 	outer_radius  = ro;
@@ -35,7 +35,7 @@ Sphe::Sphe( double ri, double ro,
 	full_azimuth =  fabs( phi_2 - phi_1 - 2*M_PI ) <= FLT_EPSILON ;
 
 	if( !full_polar || !full_azimuth )
-	   FATAL("Partial sphe not yet implemented, sorry");
+	   GeometryException("Partial sphe not yet implemented, sorry");
 
 	addSurface(new Sphere(center(), ro) );
 	if( ri>0 )

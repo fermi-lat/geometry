@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/geometry/geometry/Point.h,v 1.2 2000/01/18 00:42:07 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/geometry/geometry/Point.h,v 1.3 2001/10/06 03:37:05 burnett Exp $
 //   Author: T. Burnett
 //  Project: geometry
 //
@@ -9,7 +9,7 @@
 #include "geometry/Vector.h"
 
 /** Defines a geometrical point, differing from  Vector only by
-  its transformation properties, and the fact that it can be displayed.
+  its transformation properties and operators: it is illegal to add two points, for example.
   */
 class Point: public Hep3Vector , public GeomObject
 {

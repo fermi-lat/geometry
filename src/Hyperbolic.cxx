@@ -1,4 +1,4 @@
-// $Id: Hyperbolic.cxx,v 1.1.1.1 1999/12/20 22:28:06 burnett Exp $
+// $Id: Hyperbolic.cxx,v 1.2 1999/12/27 23:26:36 pfkeb Exp $
 //
 
 // Define a hyperbolic surface of revolution
@@ -9,33 +9,33 @@ Hyperbolic::Hyperbolic(const Point& origin , const Vector& axis,
                  double , double , double )
 :Surface(origin, axis)
 {
-   FATAL("not implemented");
+   GeometryException("not implemented");
 }
 
 double
 Hyperbolic::how_near( const Point&  ) const
 {
 
-  FATAL("not implemented");return 0;
+  GeometryException("not implemented");return 0;
 }
 
 double
 Hyperbolic::distance( const Point&  ,const Vector& , int) const
 {
-  FATAL("not implemented");return 0;
+  GeometryException("not implemented");return 0;
 }
 
 Vector
 Hyperbolic::normal( const Point& ) const
 {
-  FATAL("not implemented");
+  GeometryException("not implemented");
   return Vector();
 }
 
 void
 Hyperbolic::printOn( std::ostream& ) const
 {
-  FATAL("not implemented");
+  GeometryException("not implemented");
   return;
 }
 
