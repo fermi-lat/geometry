@@ -1,9 +1,9 @@
-// $Id: Ray.cxx,v 1.1.1.1 1999/12/18 22:50:55 burnett Exp $
+// $Id: Ray.cxx,v 1.1.1.1 1999/12/20 22:28:06 burnett Exp $
 
 #include "geometry/Ray.h"
 
 Ray::Ray( const Point& p, const Vector& d )
-: pos( p ), dir(d.unit()) , arclength(0)
+: pos( p ), dir(d.unit()) , arclength(0), flag(0)
 {
 }
 
