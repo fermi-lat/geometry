@@ -1,4 +1,4 @@
-// $Id: Volume.h,v 1.2 2000/01/18 00:42:11 burnett Exp $
+// $Id: Volume.h,v 1.3 2000/01/18 00:50:59 burnett Exp $
 //
 //
 
@@ -52,7 +52,9 @@ class Volume : public  Shape , protected SurfaceList
 
     double getMaxDimension() const { return max_dimension; }
 
-
+    // The surface accruacy limit....
+    static const double Surface_EPSILON;
+    
  protected:
    // following methods accessible to subclasses only
    Surface& surface(int i) { return *operator[](i); }
