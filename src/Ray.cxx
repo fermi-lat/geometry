@@ -1,4 +1,4 @@
-// $Id: Ray.cxx,v 1.1.1.1 1999/12/20 22:28:06 burnett Exp $
+// $Id: Ray.cxx,v 1.2 2001/09/21 18:37:19 atwood Exp $
 
 #include "geometry/Ray.h"
 
@@ -8,7 +8,7 @@ Ray::Ray( const Point& p, const Vector& d )
 }
 
 Ray::Ray( const Ray& r )
-:pos(r.pos), dir(r.dir), arclength(r.arclength)
+:pos(r.pos),GeomObject(), dir(r.dir), arclength(r.arclength)
 {  // copy constructor
 }
 
