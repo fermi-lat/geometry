@@ -1,9 +1,8 @@
-// $Id: Surface.cxx,v 1.1.1.1 1999/12/20 22:28:06 burnett Exp $
+// $Id: Surface.cxx,v 1.2 2001/10/06 03:39:59 burnett Exp $
 //
 
 
 #include "geometry/Surface.h"
-#include <strstream>
 
 GeomObject&
 Surface::transform(const CoordTransform& T )
