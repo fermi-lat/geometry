@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Tue Oct  9 10:35:58 PDT 2001
+geometry/geometry Shape.h
+
+Modified Files:
+	Shape.h 
+Log Message:
+gcc fix choked Windows
+    *
+------------------------------------------------------------
 User: burnett  Sat Oct  6 07:18:51 PDT 2001
 geometry/src Ray.cxx
 
