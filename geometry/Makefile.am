@@ -1,6 +1,6 @@
 ## Process this file with automake to produce Makefile.in
 #
-# $Id: Makefile.am,v 1.1 1999/12/24 21:20:28 pfkeb Exp $
+# $Id: Makefile.am,v 1.1 1999/12/25 18:09:43 pfkeb Exp $
 #
 # Author: Paul_Kunz@slac.stanford.edu
 #
@@ -10,11 +10,12 @@ AUTOMAKE_OPTIONS = foreign
 
 geometryincludedir = $(includedir)/geometry
 
+## Leave `Hype.h' out since many functions are not implemented
 geometryinclude_HEADERS = \
 	Box.h  \
 	Cone.h  Conic.h  Cons.h  CoordSystem.h  CoordTransform.h  Cylinder.h \
 	Digitizer.h GeomObject.h \
-	Helix.h Hexahedron.h Hype.h Hyperbolic.h \
+	Helix.h Hexahedron.h Hyperbolic.h \
 	Intersection.h Plane.h Point.h Ray.h RootFinder.h \
 	Shape.h Sphe.h Sphere.h Surface.h \
 	Track.h Trap.h Trd1.h Trd2.h Tube.h Tubs.h \
