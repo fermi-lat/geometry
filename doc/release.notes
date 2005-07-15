@@ -2,7 +2,8 @@
  * @brief package geometry
 @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.58 2004/08/28 14:14:34 burnett Exp $
+ * $Id: release.notes,v 1.1 2004/09/08 18:55:44 burnett Exp $
+* v3r1p2 NG   15-jul-05   Added author line
 * v3r1p1 THB  09-sep-04   Removed strstream includes
 
  
