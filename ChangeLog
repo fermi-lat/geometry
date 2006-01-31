@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: usher  Tue Jan 31 14:07:53 PST 2006
+geometry/geometry
+
+Modified Files:
+      Tag: GR-v7r3p20-newext
+	CoordTransform.h Point.h Vector.h 
+Log Message:
+    *
+------------------------------------------------------------
 User: usher  Tue Jan 31 14:07:52 PST 2006
 geometry/doc
 
