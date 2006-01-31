@@ -1,4 +1,4 @@
-// $Id: GeomObject.cxx,v 1.2 2000/01/18 00:42:11 burnett Exp $
+// $Id: GeomObject.cxx,v 1.3 2002/10/24 16:50:11 kuss Exp $
 //
 //
 
@@ -25,7 +25,7 @@ GeomObject& GeomObject::moveZ(double s){ return move(Vector(0,0,s));}
 GeomObject&
 GeomObject::rotateX(double theta)
 {
-    HepRotation R;
+    CLHEP::HepRotation R;
     return transform(R.rotateX(theta));
 }
 
@@ -33,21 +33,21 @@ GeomObject::rotateX(double theta)
 GeomObject &
 GeomObject::rotateY(double theta)
 {
-    HepRotation R;
+    CLHEP::HepRotation R;
     return transform(R.rotateY(theta));
 }
 
 GeomObject &
 GeomObject::rotateZ(double theta)
 {
-    HepRotation R;
+    CLHEP::HepRotation R;
     return transform(R.rotateZ(theta));
 }
 
 GeomObject &
 GeomObject::rotate(double angle, const Vector & axis)
 {
-    HepRotation R;
+    CLHEP::HepRotation R;
     return transform(R.rotate(angle, axis));
 }
 void GeomObject::printOn(std::ostream& )const{};

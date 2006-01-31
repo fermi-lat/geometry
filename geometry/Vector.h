@@ -1,4 +1,4 @@
-// $Header: Vector.h,v 1.1.1.1 1999/12/20 22:28:06 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/geometry/geometry/Vector.h,v 1.2 2000/01/18 00:42:11 burnett Exp $
 //
 // Vector.h
 //
@@ -9,14 +9,14 @@
 #include "geometry/GeomObject.h"
 
 /// Subclass of Hep3Vector that has transformations from GeomObject
-class Vector : public Hep3Vector , public GeomObject
+class Vector : public CLHEP::Hep3Vector , public GeomObject
 {
 public:
   Vector();
   Vector(double u, double v, double w);
   Vector(double costh, double phi);
 
-  /*explicit*/ Vector(const Hep3Vector& v):Hep3Vector(v){}
+  /*explicit*/ Vector(const CLHEP::Hep3Vector& v):Hep3Vector(v){}
   //explicit Vector(const Vector& v){*this = v;}
   // constructors
 
@@ -51,11 +51,11 @@ inline Vector
 Vector::operator-()const{  Vector q(-x(), -y(), -z());  return q;}
 
 // operators that return a vector
-inline Vector operator*(double s, const Vector& v){return operator*(s, (const Hep3Vector&) v);}
-inline Vector operator*(const Vector& v, double s){return operator*(s, (const Hep3Vector&) v);}
+inline Vector operator*(double s, const Vector& v){return (Vector)(CLHEP::operator*(s, (const CLHEP::Hep3Vector&) v));}
+inline Vector operator*(const Vector& v, double s){return (Vector)(CLHEP::operator*((const CLHEP::Hep3Vector&) v, s));}
 
-inline Vector operator+(const Vector& a, const Vector& b){return (Vector)((const Hep3Vector&)a+(const Hep3Vector&)b);}
-inline Vector operator-(const Vector& a, const Vector& b){return (Vector)((const Hep3Vector&)a-(const Hep3Vector&)b);}
+inline Vector operator+(const Vector& a, const Vector& b){return (Vector)((const CLHEP::Hep3Vector&)a+(const CLHEP::Hep3Vector&)b);}
+inline Vector operator-(const Vector& a, const Vector& b){return (Vector)((const CLHEP::Hep3Vector&)a-(const CLHEP::Hep3Vector&)b);}
 
 inline std::ostream& operator<<(std::ostream& out, const Vector& v)
 {  v.printOn(out); return out;}
