@@ -1,5 +1,13 @@
 ------------------------------------------------------------
 User: usher  Mon Mar 20 17:27:25 PST 2006
+geometry/geometry
+
+Modified Files:
+	CoordTransform.h Point.h Vector.h 
+Log Message:
+    *
+------------------------------------------------------------
+User: usher  Mon Mar 20 17:27:25 PST 2006
 geometry/doc
 
 Modified Files:
