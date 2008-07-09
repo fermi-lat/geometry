@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: glastrm  Wed Jul  9 14:13:46 PDT 2008
+GlastRelease-scons/geometry
+
+Added Files:
+	SConscript geometryLib.py 
+Log Message:
+Added SConscript files to packages
+    *
+------------------------------------------------------------
 TAG
 Tag name: geometry-03-02-00, operation: add
 Package: geometry
