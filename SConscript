@@ -1,5 +1,5 @@
 # -*- python -*-
-# $Header$
+# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/geometry/SConscript,v 1.1 2008/07/09 21:13:46 glastrm Exp $
 # Authors: T.Burnett <tburnett@u.washington.edu>
 # Version: geometry-03-01-02
 Import('baseEnv')
@@ -17,3 +17,6 @@ geometryLib = libEnv.StaticLibrary('geometry', ['src/Box.cxx', 'src/Cone.cxx', '
                                                 'src/Tube.cxx', 'src/Tubs.cxx', 'src/Vector.cxx', 'src/Volume.cxx', 'src/Wedge.cxx'])
 
 baseEnv.Tool('registerObjects', package = 'geometry', libraries = [geometryLib], includes = listFiles(['geometry/*.h']))
+
+
+
