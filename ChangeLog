@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+TAG
+Tag name: geometry-03-01-02, operation: add
+Package: geometry
+User: ecephas  Mon Dec  8 13:40:39 2008
+Files:
+  geometry/SConscript  1.2
+  geometry/SConscript  1.2
+
+    *
+------------------------------------------------------------
 User: ecephas  Mon Dec  8 13:40:33 PST 2008
 GlastRelease-scons/geometry
 
