@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: ecephas  Mon Dec  8 13:40:33 PST 2008
+GlastRelease-scons/geometry
+
+Modified Files:
+	SConscript 
+Log Message:
+Check in SConscript for geometry v3r1p2 (for branch-tag, GlastReleasev15r49) 
+    *
+------------------------------------------------------------
 User: glastrm  Wed Jul  9 14:13:46 PDT 2008
 GlastRelease-scons/geometry
 
