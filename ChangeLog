@@ -2,6 +2,16 @@
 TAG
 Tag name: geometry-03-01-02, operation: add
 Package: geometry
+User: ecephas  Mon Dec  8 16:08:54 2008
+Files:
+  geometry/geometryLib.py  1.1
+  geometry/geometryLib.py  1.1
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: geometry-03-01-02, operation: add
+Package: geometry
 User: ecephas  Mon Dec  8 13:40:39 2008
 Files:
   geometry/SConscript  1.2
