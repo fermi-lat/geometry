@@ -1,4 +1,18 @@
 ------------------------------------------------------------
+TAG
+Tag name: geometry-03-02-00, operation: mov
+Package: geometry
+User: glastrm  Thu Jan 22 16:31:56 2009
+Files:
+  geometry/SConscript  1.3
+  geometry/SConscript  1.3
+  geometry/SConscript  1.3
+  geometry/geometryLib.py  1.1
+  geometry/geometryLib.py  1.1
+  geometry/geometryLib.py  1.1
+
+    *
+------------------------------------------------------------
 User: ecephas  Thu Jan 22 16:07:41 PST 2009
 GlastRelease-scons/geometry
 
