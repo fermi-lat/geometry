@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Thu Aug  6 17:50:46 PDT 2009
+GlastRelease-scons/geometry
+
+Modified Files:
+	.cvsignore 
+Log Message:
+Add SCons build stuff
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Aug  6 17:46:27 PDT 2009
 GlastRelease-scons/geometry
 
