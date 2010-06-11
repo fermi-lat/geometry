@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Thu Jun 10 17:45:23 PDT 2010
+GlastRelease-scons/geometry
+
+Modified Files:
+	SConscript 
+Log Message:
+updates for SCons build
+    *
+------------------------------------------------------------
 TAG
 Tag name: geometry-03-02-01, operation: add
 Package: geometry
