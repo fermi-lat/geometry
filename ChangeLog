@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Fri May 20 09:16:38 PDT 2011
+geometry
+
+Modified Files:
+	SConscript 
+Log Message:
+CLHEP 2.1.0.1
+    *
+------------------------------------------------------------
 TAG
 Tag name: geometry-03-02-02, operation: add
 Package: geometry
