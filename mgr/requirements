@@ -1,7 +1,7 @@
 package geometry
-version v3r1p2
+version v3r2p3
 author T.Burnett <tburnett@u.washington.edu>
-# $Header$
+# $Header: /nfs/slac/g/glast/ground/cvs/geometry/mgr/requirements,v 1.31 2006/03/24 14:35:17 burnett Exp $
 
 use GlastPolicy
 use CLHEP v3r* IExternal
