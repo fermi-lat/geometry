@@ -1,10 +1,10 @@
 package geometry
-version v3r2p3
+version v3r2p4
 author T.Burnett <tburnett@u.washington.edu>
-# $Header: /nfs/slac/g/glast/ground/cvs/geometry/mgr/requirements,v 1.31 2006/03/24 14:35:17 burnett Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/geometry/mgr/requirements,v 1.32 2011/05/20 16:16:38 heather Exp $
 
 use GlastPolicy
-use CLHEP v3r* IExternal
+use CLHEP * IExternal
 
 
 apply_pattern package_include

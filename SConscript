@@ -1,7 +1,7 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/geometry/SConscript,v 1.7 2010/06/12 22:44:15 jrb Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/geometry/SConscript,v 1.8 2011/05/20 16:16:38 heather Exp $
 # Authors: T.Burnett <tburnett@u.washington.edu>
-# Version: geometry-03-02-03
+# Version: geometry-03-02-04
 Import('baseEnv')
 Import('listFiles')
 Import('packages')
