@@ -1,5 +1,19 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-17-35-24-gr04, operation: add
+Package: geometry
+User: heather  Wed Sep  7 14:10:37 2011
+Files:
+  geometry/.cvsignore  1.9
+  geometry/ChangeLog  1.68
+  geometry/geometryLib.py  1.1
+  geometry/SConscript  1.7
+  geometry/doc/release.notes  1.7
+  geometry/doc/index.html  1.1
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-19-03-07, operation: add
 Package: geometry
 User: heather  Wed Sep  7 10:20:13 2011
