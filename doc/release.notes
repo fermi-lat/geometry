@@ -2,9 +2,10 @@
  * @brief package geometry
 @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.8 2011/05/20 16:16:38 heather Exp $
+ * $Id: release.notes,v 1.9 2011/05/21 20:14:16 heather Exp $
  * EOH *
 
+ geometry-03-02-05 02-May-2012    jrb add dependence on clhep (for SCons builds)
  geometry-03-02-04 21-May-2011    hmk patch requirements for CLHEP 
  geometry-03-02-03 20-May-2011    hmk CLHEP 2.1.0.1
  geometry-03-02-02 12-Jun-2010    jrb upgrades for SCons builds
