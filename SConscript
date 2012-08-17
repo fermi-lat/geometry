@@ -1,5 +1,5 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/geometry/SConscript,v 1.9 2011/05/21 20:14:16 heather Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/geometry/SConscript,v 1.10 2012/05/02 22:58:53 jrb Exp $
 # Authors: T.Burnett <tburnett@u.washington.edu>
 # Version: geometry-03-02-05
 Import('baseEnv')
@@ -7,6 +7,7 @@ Import('listFiles')
 Import('packages')
 libEnv = baseEnv.Clone()
 
+libEnv.Tool('addLinkDeps', package = 'geometry', toBuild='static')
 geometryLib = libEnv.StaticLibrary('geometry',
                                    ['src/Box.cxx', 'src/Cone.cxx', 'src/Conic.cxx',
                                     'src/CoordTransform.cxx', 'src/Cylinder.cxx',
