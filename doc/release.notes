@@ -2,9 +2,10 @@
  * @brief package geometry
 @verbatim
  * package manager:T.Burnett
- * $Id: release.notes,v 1.9 2011/05/21 20:14:16 heather Exp $
+ * $Id: release.notes,v 1.10 2012/05/02 22:58:53 jrb Exp $
  * EOH *
 
+ geometry-03-03-00 16-Aug-2012    jrb support for Windows no-installed-headers
  geometry-03-02-05 02-May-2012    jrb add dependence on clhep (for SCons builds)
  geometry-03-02-04 21-May-2011    hmk patch requirements for CLHEP 
  geometry-03-02-03 20-May-2011    hmk CLHEP 2.1.0.1
