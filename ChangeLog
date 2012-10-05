@@ -2,6 +2,14 @@
 TAG
 Tag name: GlastRelease-17-35-24-lp37, operation: add
 Package: geometry
+User: heather  Thu Oct  4 20:00:19 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp37, operation: add
+Package: geometry
 User: heather  Thu Oct  4 19:52:56 2012
 Files:
   geometry/.cvsignore  1.9
