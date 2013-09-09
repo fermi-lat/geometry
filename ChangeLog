@@ -1,5 +1,81 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-17-35-24-lp52, operation: add
+Package: geometry
+User: heather  Mon Sep  9 05:49:56 2013
+Files:
+  geometry/.cvsignore  1.9
+  geometry/ChangeLog  1.68
+  geometry/geometryLib.py  1.1
+  geometry/SConscript  1.7
+  geometry/doc/release.notes  1.7
+  geometry/doc/index.html  1.1
+  geometry/geometry/Wedge.h  1.2
+  geometry/geometry/Trd2.h  1.2
+  geometry/geometry/Trd1.h  1.2
+  geometry/geometry/Digitizer.h  1.2
+  geometry/geometry/CoordSystem.h  1.3
+  geometry/geometry/Shape.h  1.5
+  geometry/geometry/Vector.h  1.3
+  geometry/geometry/Trap.h  1.2
+  geometry/geometry/Hype.h  1.3
+  geometry/geometry/Cone.h  1.2
+  geometry/geometry/Sphere.h  1.2
+  geometry/geometry/Hyperbolic.h  1.2
+  geometry/geometry/Cons.h  1.2
+  geometry/geometry/Volume.h  1.5
+  geometry/geometry/Ray.h  1.4
+  geometry/geometry/Cylinder.h  1.2
+  geometry/geometry/Box.h  1.3
+  geometry/geometry/Intersection.h  1.2
+  geometry/geometry/Helix.h  1.2
+  geometry/geometry/GeomObject.h  1.3
+  geometry/geometry/Tubs.h  1.2
+  geometry/geometry/Track.h  1.2
+  geometry/geometry/Conic.h  1.2
+  geometry/geometry/Surface.h  1.2
+  geometry/geometry/Tube.h  1.2
+  geometry/geometry/Plane.h  1.3
+  geometry/geometry/Hexahedron.h  1.2
+  geometry/geometry/Point.h  1.5
+  geometry/geometry/CoordTransform.h  1.4
+  geometry/geometry/Sphe.h  1.2
+  geometry/mgr/.cvsignore  1.7
+  geometry/mgr/requirements  1.31
+  geometry/mgr/Makefile  1.3
+  geometry/mgr/Doxyfile  1.1
+  geometry/src/Vector.cxx  1.2
+  geometry/src/Point.cxx  1.1.1.1
+  geometry/src/Tube.cxx  1.4
+  geometry/src/Trap.cxx  1.1.1.1
+  geometry/src/Wedge.cxx  1.2
+  geometry/src/Sphe.cxx  1.2
+  geometry/src/Track.cxx  1.1.1.1
+  geometry/src/Sphere.cxx  1.2
+  geometry/src/Cylinder.cxx  1.2
+  geometry/src/Volume.cxx  1.6
+  geometry/src/Box.cxx  1.1.1.1
+  geometry/src/Tubs.cxx  1.1.1.1
+  geometry/src/Surface.cxx  1.3
+  geometry/src/Shape.cxx  1.2
+  geometry/src/GeomObject.cxx  1.4
+  geometry/src/Helix.cxx  1.1.1.1
+  geometry/src/CoordTransform.cxx  1.1.1.1
+  geometry/src/Hype.cxx  1.2
+  geometry/src/Intersection.cxx  1.1.1.1
+  geometry/src/Cons.cxx  1.1.1.1
+  geometry/src/Trd2.cxx  1.1.1.1
+  geometry/src/Conic.cxx  1.2
+  geometry/src/Trd1.cxx  1.1.1.1
+  geometry/src/Hexahedron.cxx  1.4
+  geometry/src/Hyperbolic.cxx  1.3
+  geometry/src/Cone.cxx  1.5
+  geometry/src/Plane.cxx  1.3
+  geometry/src/Ray.cxx  1.3
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-20-09-04, operation: add
 Package: geometry
 User: heather  Tue Sep  3 09:17:24 2013
